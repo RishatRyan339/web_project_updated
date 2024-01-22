@@ -1,0 +1,1810 @@
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+
+
+
+.background-icon {
+    position: absolute;
+    top: -48.5px;
+    left: -58px;
+    width: 1921.5px;
+    height: 558.56px;
+    display: none;
+  }
+  .footer-child {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-white);
+    height: 121px;
+  }
+  .lwt {
+    position: absolute;
+    bottom: 81px;
+    left: 835px;
+    font-weight: 600;
+  }
+  .copyright-2023 {
+    position: absolute;
+    bottom: 58px;
+    left: 729px;
+    font-size: var(--font-size-smi);
+    line-height: 14px;
+  }
+  .social-icons-white-instagr {
+    position: relative;
+    width: 32px;
+    height: 31px;
+  }
+  .social-links {
+    position: absolute;
+    width:100%; 
+    right: 773px;
+    bottom: 14px;
+    left: 774px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 160px 0 0;
+    box-sizing: border-box;
+    gap: 16px;
+  }
+  .footer {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    height: 121px;
+    color: var(--color-darkgray);
+  }
+  .box-child {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 767px);
+    border-radius: var(--br-xl);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(60px);
+    width: 1534px;
+    height: 770px;
+    opacity: 0.95;
+  }
+  .flashcard-settings-child {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 126px);
+    border-radius: 0 var(--br-xl) 0 0;
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-tomato-100);
+    box-sizing: border-box;
+    width: 252px;
+    height: 188px;
+  }
+
+
+  .div {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    line-height: 105%;
+    font-weight: 600;
+    display: inline-block;
+    width: 57px;
+    height: 12px;
+  }
+  .cards-learned,
+  .parent {
+    position: absolute;
+    width: 98px;
+  }
+  .cards-learned {
+    top: 20px;
+    left: 0;
+    line-height: 105%;
+    font-weight: 500;
+    text-align: left;
+    display: inline-block;
+    height: 11px;
+  }
+  .parent {
+    top: 102px;
+    left: 141px;
+    height: 31px;
+  }
+  .flashcard-settings {
+    position: absolute;
+    top: 0;
+    left: calc(50% + 515px);
+    width: 252px;
+    height: 188px;
+    text-align: center;
+    color: var(--color-black);
+  }
+  .group-child,
+  .group-item {
+    position: absolute;
+    width: 276px;
+  }
+  .group-child {
+    top: 0;
+    left: calc(50% - 138px);
+    border-radius: var(--br-xl) 0 0 var(--br-xl);
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 30px rgba(0, 60, 150, 0.15);
+    height: 770px;
+  }
+  .group-item {
+    top: 52px;
+    left: 0;
+    background-color: var(--color-white);
+    height: 58px;
+  }
+  .flashcards {
+    position: absolute;
+    top: 0;
+    left: 35px;
+    line-height: 35px;
+    font-weight: 500;
+    display: inline-block;
+    width: 133px;
+  }
+  .flashcards-1-icon,
+  .vector-icon {
+    position: absolute;
+    overflow: hidden;
+  }
+  .flashcards-1-icon {
+    top: 5px;
+    left: 0;
+    width: 23px;
+    height: 23px;
+  }
+  .vector-icon {
+    width: calc(100% - 212px);
+    top: 14px;
+    right: 16px;
+    left: 196px;
+    max-width: 100%;
+    height: 7px;
+  }
+  .full-deck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 35px;
+    color: var(--color-gray-100);
+  }
+  .enviromental-issues,
+  .principles {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    line-height: 35px;
+  }
+  .enviromental-issues {
+    top: 82px;
+  }
+  .codes-regulation,
+  .materials-technology,
+  .project-practical {
+    position: absolute;
+    top: 123px;
+    left: 0;
+    line-height: 35px;
+  }
+  .materials-technology,
+  .project-practical {
+    top: 164px;
+  }
+  .project-practical {
+    top: 205px;
+  }
+  .full-deck-parent {
+    position: absolute;
+    top: 60px;
+    left: 36px;
+    width: 187px;
+    height: 240px;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    
+  }
+  .full-deck-parent:hover{
+    cursor: pointer;
+ 
+  }
+  .flash-cards {
+    position: absolute;
+    top: 64px;
+    left: 30px;
+    width: 223px;
+    height: 300px;
+    color: var(--color-black);
+  }
+  .videos1 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    line-height: 35px;
+    font-weight: 500;
+    display: inline-block;
+    width: 124px;
+  }
+  .video-playlist-1-icon {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .vector-icon1 {
+    position: absolute;
+    width: calc(100% - 193px);
+    top: 11px;
+    right: 0;
+    left: 193px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 7px;
+  }
+  .videos {
+    position: absolute;
+    top: 388px;
+    left: 33px;
+    width: 204px;
+    height: 35px;
+  }
+  .study-plans1 {
+    position: absolute;
+    top: 0;
+    left: 35px;
+    line-height: 35px;
+    font-weight: 500;
+    display: inline-block;
+    width: 143px;
+  }
+  .study11-1-icon,
+  .vector-icon2 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .study11-1-icon {
+    top: 5px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+  }
+  .vector-icon2 {
+    width: calc(100% - 196px);
+    top: 14px;
+    right: 0;
+    left: 196px;
+    max-width: 100%;
+    height: 7px;
+  }
+  .study-plans {
+    position: absolute;
+    top: 446px;
+    left: 30px;
+    width: 207px;
+    height: 35px;
+  }
+  .my-books1 {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    line-height: 35px;
+    font-weight: 500;
+    display: inline-block;
+    width: 143px;
+  }
+  .books-1-icon,
+  .vector-icon3 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .vector-icon3 {
+    width: calc(100% - 193px);
+    top: 14px;
+    right: 0;
+    left: 193px;
+    max-width: 100%;
+    height: 7px;
+  }
+  .books-1-icon {
+    top: 7px;
+    left: 0;
+    width: 21px;
+    height: 21px;
+  }
+  .my-books {
+    position: absolute;
+    top: 504px;
+    left: 33px;
+    width: 204px;
+    height: 35px;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 767px);
+    width: 276px;
+    height: 770px;
+    font-size: var(--font-size-lg);
+  }
+  .div1 {
+    position: absolute;
+    top: 598px;
+    left: 0;
+  }
+  .what-type-of {
+    margin: 0;
+  }
+  .what-type-of-container {
+    position: absolute;
+    top: 0;
+    left: 98px;
+    font-size: 32px;
+  }
+  .vector-icon4 {
+    position: absolute;
+    height: 73.08%;
+    width: 11.59%;
+    top: 11.54%;
+    right: 23.17%;
+    bottom: 15.38%;
+    left: 65.24%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .add-2-icon,
+  .full-screen-1-icon {
+    position: absolute;
+    top: 0;
+    left: 138px;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+  }
+  .add-2-icon {
+    top: 1px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+  }
+  .edit-1-icon,
+  .video-playlist-2-icon {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+  }
+  .edit-1-icon {
+    top: 2px;
+    left: 36px;
+    width: 22px;
+    height: 22px;
+  }
+  .vector-parent {
+    position: absolute;
+    height: 4.1%;
+    width: 17.21%;
+    top: 94.16%;
+    right: 0;
+    bottom: 1.74%;
+    left: 82.79%;
+  }
+  .answer-button-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-tomato-100);
+    width: 170px;
+    height: 47px;
+  }
+  .answer {
+    position: absolute;
+    top: 8px;
+    left: 48px;
+    font-weight: 500;
+  }
+  .answer-button,
+  .group {
+    position: absolute;
+    top: 587px;
+    left: 376px;
+    width: 170px;
+    height: 47px;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .group {
+    top: 117px;
+    left: 306px;
+    width: 953px;
+    height: 634px;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+  }
+  .box-item {
+    position: absolute;
+    top: 223px;
+    left: 1282px;
+    border-radius: 0 0 var(--br-xl) 0;
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-tomato-100);
+    box-sizing: border-box;
+    width: 252px;
+    height: 547px;
+  }
+  .box-inner,
+  .rectangle-div {
+    position: absolute;
+    top: 188px;
+    left: 1282px;
+    height: 35px;
+  }
+  .box-inner {
+    background-color: rgba(255, 87, 51, 0.5);
+    width: 252px;
+  }
+  .rectangle-div {
+    background-color: var(--color-tomato-100);
+    width: 126px;
+  }
+  .learned,
+  .to-learn {
+    position: absolute;
+    top: 195px;
+    left: 1317px;
+    font-weight: 500;
+  }
+  .learned {
+    left: 1442px;
+  }
+  .lorem-ipsum-dolor,
+  .lorem-ipsum-dolor1 {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    display: inline-block;
+    width: 223px;
+    height: 127px;
+  }
+  .lorem-ipsum-dolor1 {
+    top: 0;
+    font-size: var(--font-size-smi);
+    font-weight: 500;
+    color: var(--color-black);
+    width: 184px;
+    height: 22px;
+  }
+  .lorem-ipsum-dolor-sit-amet-con-parent {
+    position: absolute;
+    top: 237px;
+    left: 1298px;
+    width: 223px;
+    height: 154px;
+    text-align: justify;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+  }
+  .lorem-ipsum-dolor2 {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    font-weight: 300;
+    display: inline-block;
+    width: 223px;
+    height: 127px;
+  }
+  .lorem-ipsum-dolor-sit-amet-con-container,
+  .lorem-ipsum-dolor-sit-amet-con-group {
+    position: absolute;
+    top: 417px;
+    
+    left: 1298px;
+    width: 223px;
+    height: 154px;
+    text-align: justify;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+  }
+  .lorem-ipsum-dolor-sit-amet-con-container {
+    top: 597px;
+  }
+  .box-child1,
+  .line-icon {
+    position: absolute;
+    top: 404px;
+    left: 1300px;
+    max-height: 100%;
+    width: 220px;
+  }
+  .box-child1 {
+    top: 584px;
+  }
+  .flashcard-settings-button-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-tomato-100);
+    width: 196px;
+    height: 47px;
+  }
+
+  .flashcard-settings-button-child:hover{
+    cursor: pointer;
+    border-radius: var(--br-xl);
+  
+  }
+
+  .flashcard-settings-button:hover{
+    cursor: pointer;
+
+  }
+  .settings-2 {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+  }
+  .flashcard-settings1 {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: 396px;
+ 
+    line-height: 35px;
+    font-weight: 500;
+    overflow: hidden;
+  }
+  .flashcard-settings1:hover{
+  cursor: pointer;
+ color:rgb(165, 41, 41);
+
+  }
+  .settings-2-parent {
+    position: absolute;
+    top: 6px;
+    left: 26px;
+    width: 153px;
+    height: 35px;
+  }
+  .flashcard-settings-button {
+    position: absolute;
+    top: 673px;
+    left: 40px;
+    width: 196px;
+    height: 47px;
+    font-size: 15px;
+  }
+
+  .flash-settings-button-child:hover{
+  cursor: pointer;
+  
+  }
+  .group-inner {
+    position: absolute;
+    top: 21px;
+    left: 14px;
+    border-radius: 50%;
+    background-color: #fa3d15;
+    filter: blur(50px);
+    width: 71.25px;
+    height: 71.25px;
+  }
+  .ellipse-div,
+  .group-child1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 96.14px;
+    height: 96.14px;
+  }
+  .ellipse-div {
+    background-color: #ffbb9f;
+  }
+  .group-child1 {
+    background: linear-gradient(137.91deg, #ff9263 12.41%, #fb5532);
+  }
+  .div2 {
+    position: absolute;
+    top: 37.62px;
+    left: 29.61px;
+    line-height: 105%;
+    font-weight: 500;
+  }
+  .ellipse-group,
+  .group-child2 {
+    position: absolute;
+    top: 0.38px;
+    left: 0.39px;
+    width: 96.14px;
+    height: 96.14px;
+  }
+  .group-child2 {
+    top: 3.04px;
+    left: 3.05px;
+    border-radius: 50%;
+    border: 10px solid #333;
+    box-sizing: border-box;
+    width: 90.07px;
+    height: 90.07px;
+    mix-blend-mode: soft-light;
+  }
+  .ellipse-icon,
+  .group-child3 {
+    position: absolute;
+    top: 7.04px;
+    left: 52.08px;
+    width: 42.03px;
+    
+    height: 42.03px;
+  }
+  .group-child3 {
+    top: 45.58px;
+    left: 85.63px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 4.98px;
+    height: 4.98px;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 35px;
+    left: 1313px;
+    width: 96.14px;
+    height: 96.14px;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  #flashsettings{
+    color:White;
+  }
+  .vector-icon5 {
+    position: absolute;
+    height: 1.55%;
+    width: 0.78%;
+    top: 89.61%;
+    right: 95.44%;
+    bottom: 8.84%;
+    left: 3.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .box {
+    position: absolute;
+    top: 198px;
+    left: calc(50% - 767px);
+    width: 1534px;
+    height: 770px;
+    font-size: var(--font-size-smi);
+  }
+  .logo {
+    top: 0;
+    line-height: 35px;
+  }
+  .group-child4,
+  .logo,
+  .menu {
+    position: absolute;
+    left: 0;
+  }
+  .menu {
+    top: 10px;
+    width: 102px;
+    height: 35px;
+    font-size: 36px;
+  }
+  .group-child4 {
+    top: 0;
+    border-radius: 25px;
+    background-color: var(--color-gray-100);
+    backdrop-filter: blur(30px);
+    width: 1141px;
+    height: 56px;
+  }
+  .flashcard,
+  .reading {
+    position: absolute;
+    top: 0;
+    left: 127px;
+    line-height: 35px;
+  }
+  .flashcard {
+    left: 239px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+  .flashcard.a{
+    color:white;
+  }
+  a#active{
+    color: #ffffff;
+  }
+  .principles:hover{
+    color: rgba(255, 255, 255, 0.50);
+cursor: pointer;
+  }
+  .enviromental-issues:hover{
+    color: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+  }
+  .codes-regulation:hover{
+    color: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+  }
+  .materials-technology:hover{
+    color: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+  }
+  .project-practical:hover{
+    color: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+  }
+
+
+
+  .statistics,
+  .vocabulary-vault {
+    position: absolute;
+    top: 7px;
+    left: 399px;
+    line-height: 21px;
+  }
+  .statistics {
+    top: 0;
+    left: 609px;
+    line-height: 35px;
+  }
+  .add-articlesebook,
+  .home,
+  .upgrade {
+    position: absolute;
+    top: 7px;
+    left: 744px;
+    line-height: 21px;
+  }
+  .home,
+  .upgrade {
+    top: 0;
+    left: 970px;
+    line-height: 35px;
+    text-align: right;
+  }
+  .home {
+    left: 0;
+    text-align: left;
+  }
+  .navbar1,
+  .reading-parent,
+  .rectangle-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1049px;
+    height: 35px;
+  }
+  .navbar1,
+  .rectangle-group {
+    top: 10px;
+    left: 47px;
+  }
+  .rectangle-group {
+    top: 0;
+    left: 127px;
+    width: 1141px;
+    height: 56px;
+    text-align: center;
+    color: var(--color-black);
+  }
+  .log-in-button-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(60px);
+    width: 123px;
+    height: 56px;
+  }
+  .log-in {
+    position: absolute;
+    top: 10px;
+    left: 34px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+  .log-in-button {
+    position: absolute;
+    top: 0;
+    left: 114px;
+    width: 123px;
+    height: 56px;
+  }
+  
+
+
+  .settings {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 4px;
+    left: 57px;
+    background-color: #0000001a;
+    border-radius: 23.5px;
+  }
+  
+   .settings-2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 16px;
+    left: 16px;
+  }
+  
+   .chat {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 4px;
+    left: 0;
+    background-color: #0000001a;
+    border-radius: 23.5px;
+  }
+  
+  .component {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    left: 14px;
+  }
+  
+
+
+
+
+
+  .log-in-button-parent {
+    position: absolute;
+    top: 0;
+    left: 1293px;
+    width: 237px;
+    height: 56px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar {
+    position: absolute;
+    top: 76px;
+    left: 99px;
+    width: 1530px;
+    height: 56px;
+    font-size: var(--font-size-lg);
+  }
+  .flashcard-page {
+    position: relative;
+    background: linear-gradient(107.95deg, #ff5733, #f33);
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+
+  
+
+
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-smi: 13px;
+    --font-size-2xs: 11px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-gray-100: rgba(255, 255, 255, 0.5);
+    --color-black: #000;
+    --color-white: #fff;
+    --color-tomato-100: #ff5733;
+    --color-dimgray: #5b5b5b;
+    --color-darkgray: #a9a9a9;
+  
+    /* Border radiuses */
+    --br-xl: 20px;
+  }
+
+ 
+  /* Apply styles to the main button */
+  .study-plans {
+
+  cursor: pointer;
+    transition: margin-bottom 0.3s ease; /* Add a smooth transition to the margin-bottom property */
+  }
+
+  /* Apply additional styles when the main button is expanded */
+  .study-plans.expanded {
+    margin-bottom: 0; /* Reduce margin to 0 when expanded */
+    /* Add any other styles you want for the expanded state */
+  }
+
+  /* Apply styles to the sub-buttons container */
+  .sub-buttons {
+    overflow: hidden; /* Hide overflow to prevent sub-buttons from appearing initially */
+    transition: max-height 0.3s ease; /* Add a smooth transition to the max-height property */
+    max-height: 0; /* Initially set max-height to 0 to hide sub-buttons */
+  }
+
+  /* Apply additional styles when the main button is expanded to reveal sub-buttons */
+  .study-plans.expanded + .sub-buttons {
+    max-height: 200px; /* Set the max-height to reveal sub-buttons */
+  }
+
+  /* Apply styles to individual sub-buttons */
+  .sub-button {
+    position: relative;
+   
+    display: block;
+    padding: 5px;
+  }
+  #expandButton{
+background-color: rgba(245, 222, 179, 0);
+border:0px solid rgba(255, 255, 255, 0);
+}
+  /* Apply styles to the main button */
+  .study-plans {
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin to prevent the button from growing */
+    transition: margin-bottom 0.3s ease; /* Add a smooth transition to the margin-bottom property */
+    position: absolute;
+   
+    top: 546px;
+    left: 30px;
+    width: 207px;
+    height: 35px;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+    width: 207px;
+    height: 35px;
+
+    z-index: 1000;
+  }
+
+  /* Apply additional styles when the main button is expanded */
+  .study-plans.expanded {
+    margin-bottom: 0; /* Reduce margin to 0 when expanded */
+    /* Add any other styles you want for the expanded state */
+  }
+
+  /* Apply styles to the sub-buttons container */
+  .sub-buttons {
+    margin-top:475px;
+    margin-left:54px;
+    color: #000;
+    overflow: hidden; /* Hide overflow to prevent sub-buttons from appearing initially */
+    transition: max-height 0.3s ease; /* Add a smooth transition to the max-height property */
+    max-height: 0; /* Initially set max-height to 0 to hide sub-buttons */
+  }
+.sub-button:hover{
+  background-color: #333;
+  cursor: pointer;
+}
+  /* Apply additional styles when the main button is expanded to reveal sub-buttons */
+  .study-plans.expanded + .sub-buttons {
+    max-height: 200px; /* Set the max-height to reveal sub-buttons */
+  }
+
+  /* Apply styles to individual sub-buttons */
+  .sub-button {
+    display: block;
+    position: relative;
+    z-index: 10000;
+    padding: 5px;
+    width: 207px;
+    height: 35px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 194.444% */
+border:1px beige;
+    background-color: #080808;
+  }
+/* -------------------------------------------------------------------------------------------------videos-----------------------------------------------------------------------------*/
+.my-books {
+  position: absolute;
+  top: 504px;
+  left: 33px;
+  width: 204px;
+  height: 35px;
+
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin to prevent the button from growing */
+  transition: margin-bottom 0.3s ease; /* Add a smooth transition to the margin-bottom property */
+  position: absolute;
+
+  width: 207px;
+  height: 35px;
+  position: absolute;
+ 
+ 
+
+  z-index: 1000;
+  
+}
+.my-books {
+
+  cursor: pointer;
+    transition: margin-bottom 0.3s ease; /* Add a smooth transition to the margin-bottom property */
+  }
+
+  /* Apply additional styles when the main button is expanded */
+  .my-books.expanded {
+    margin-bottom: 0; /* Reduce margin to 0 when expanded */
+    /* Add any other styles you want for the expanded state */
+  }
+
+  /* Apply styles to the sub-buttons container */
+  .sub-buttons1 {
+    overflow: hidden; /* Hide overflow to prevent sub-buttons from appearing initially */
+    transition: max-height 0.3s ease; /* Add a smooth transition to the max-height property */
+    max-height: 0; /* Initially set max-height to 0 to hide sub-buttons */
+  }
+
+  /* Apply additional styles when the main button is expanded to reveal sub-buttons */
+  .my-books.expanded + .sub-buttons1 {
+    max-height: 200px; /* Set the max-height to reveal sub-buttons */
+  }
+
+  /* Apply styles to individual sub-buttons */
+  .sub-button1 {
+    position: relative;
+   
+    display: block;
+    padding: 5px;
+  }
+  #expandButton1{
+background-color: rgba(245, 222, 179, 0);
+border:0px solid rgba(255, 255, 255, 0);
+}
+#expandButton2{
+  background-color: rgba(245, 222, 179, 0);
+  border:0px solid rgba(255, 255, 255, 0);
+  }
+  /* Apply styles to the main button */
+ 
+
+
+  /* Apply additional styles when the main button is expanded */
+  .my-books.expanded {
+    margin-bottom: 0; /* Reduce margin to 0 when expanded */
+    /* Add any other styles you want for the expanded state */
+  }
+
+  /* Apply styles to the sub-buttons container */
+  .sub-buttons1 {
+    margin-top:55px;
+    margin-left:54px;
+    color: #000;
+    overflow: hidden; /* Hide overflow to prevent sub-buttons from appearing initially */
+    transition: max-height 0.3s ease; /* Add a smooth transition to the max-height property */
+    max-height: 0; /* Initially set max-height to 0 to hide sub-buttons */
+  }
+.sub-button:hover{
+  background-color: #333;
+  cursor: pointer;
+}
+  /* Apply additional styles when the main button is expanded to reveal sub-buttons */
+  .my-books.expanded + .sub-buttons1 {
+    max-height: 200px; /* Set the max-height to reveal sub-buttons */
+  }
+
+  /* Apply styles to individual sub-buttons */
+  .sub-button1 {
+    display: block;
+    position: relative;
+    z-index: 10000;
+    padding: 5px;
+    width: 207px;
+    height: 35px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 194.444% */
+border:1px beige;
+    background-color: #080808;
+  }
+
+/* -------------------------Videos Section------------------------------------------------------------------------videos-----------------------------------------------------------------------------*/
+
+
+
+.videos {
+  
+
+  position: absolute;
+  top: 388px;
+  left: 33px;
+  width: 204px;
+  height: 35px;
+
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin to prevent the button from growing */
+  transition: margin-bottom 0.3s ease; /* Add a smooth transition to the margin-bottom property */
+  
+ 
+
+  z-index: 1000;
+  
+}
+.videos {
+
+  cursor: pointer;
+    transition: margin-bottom 0.3s ease; /* Add a smooth transition to the margin-bottom property */
+  }
+
+  /* Apply additional styles when the main button is expanded */
+  .videos.expanded {
+    margin-bottom: 0; /* Reduce margin to 0 when expanded */
+    /* Add any other styles you want for the expanded state */
+  }
+
+  /* Apply styles to the sub-buttons container */
+  .sub-buttons2 {
+    overflow: hidden; /* Hide overflow to prevent sub-buttons from appearing initially */
+    transition: max-height 0.3s ease; /* Add a smooth transition to the max-height property */
+    max-height: 0; /* Initially set max-height to 0 to hide sub-buttons */
+  }
+
+  /* Apply additional styles when the main button is expanded to reveal sub-buttons */
+  .videos.expanded + .sub-buttons2 {
+    max-height: 200px; /* Set the max-height to reveal sub-buttons */
+  }
+
+  /* Apply styles to individual sub-buttons */
+  .sub-button2 {
+    position: relative;
+   
+    display: block;
+    padding: 5px;
+  }
+  
+#expandButton2{
+  background-color: rgba(245, 222, 179, 0);
+  border:0px solid rgba(255, 255, 255, 0);
+  }
+  /* Apply styles to the main button */
+ 
+
+
+  /* Apply additional styles when the main button is expanded */
+  .videos.expanded {
+    margin-bottom: 0; /* Reduce margin to 0 when expanded */
+    /* Add any other styles you want for the expanded state */
+  }
+
+  /* Apply styles to the sub-buttons container */
+  .sub-buttons2 {
+    margin-top:-115px;
+    margin-left:54px;
+    color: #000;
+    overflow: hidden; /* Hide overflow to prevent sub-buttons from appearing initially */
+    transition: max-height 0.3s ease; /* Add a smooth transition to the max-height property */
+    max-height: 0; /* Initially set max-height to 0 to hide sub-buttons */
+  }
+.sub-button2:hover{
+  background-color: #333;
+  cursor: pointer;
+}
+  /* Apply additional styles when the main button is expanded to reveal sub-buttons */
+  .my-books.expanded + .sub-buttons2 {
+    max-height: 200px; /* Set the max-height to reveal sub-buttons */
+  }
+
+  /* Apply styles to individual sub-buttons */
+  .sub-button2 {
+    display: block;
+    position: relative;
+    z-index: 10000;
+    padding: 5px;
+    width: 207px;
+    height: 35px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 194.444% */
+border:1px beige;
+    background-color: #080808;
+  }
+
+  @media (max-width:991px){
+
+    html{
+       font-size: 55%;
+    }
+ 
+ }
+
+ @media (max-width:768px){
+
+  #search-btn{
+     display: inline-block;
+  }
+
+  .header .flex .search-form{
+     position: absolute;
+     top: 99%; left: 0; right: 0;
+     border-top: var(--border);
+     border-bottom: var(--border);
+     background-color: var(--white);
+     border-radius: 0;
+     width: auto;
+     padding: 2rem;
+     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+     transition: .2s linear;
+  }
+
+  .header .flex .search-form.active{
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+}
+
+@media (max-width:1150px){
+
+  html{
+     font-size: 50%;
+  }
+
+  .box-child {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 767px);
+    border-radius: var(--br-xl);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(60px);
+    width: 134px;
+    height: 770px;
+    opacity: 0.95;
+}
+.what-type-of {
+ font-size:10px;
+top:-90px;
+width:50%;
+position: relative;
+left: 323px;
+}
+.lorem-ipsum-dolor2 {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  
+  font-weight: 300;
+  font-size:10px;
+  display: inline-block;
+  width: 223px;
+  height: 127px;
+}
+.add-2-icon {
+
+  width: 15px;
+  height: 15px;
+}
+
+.edit-1-icon {
+
+  width: 22px;
+  height: 22px;
+}
+
+.edit-1-icon, .video-playlist-2-icon {
+ 
+ 
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+
+
+.box-inner, .rectangle-div {
+  position: absolute;
+  top: 385px;
+  left: 722px;
+  height: 15px;
+  z-index: 0;
+}
+.vector-icon4 {
+  position: absolute;
+  height: 73.08%;
+  width: 9.59%;
+  top: -28.54%;
+  right: 23.17%;
+  bottom: 15.38%;
+  left: 80.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+ .full-screen-1-icon {
+  position: absolute;
+  top: 0;
+  left: 138px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.vector-parent {
+  position: absolute;
+  height: 15%;
+  width: 15%;
+  top: 34.16%;
+  
+  right: 0;
+  bottom: 1.74%;
+  left: 52.79%;
+}
+.group-child {
+  top: 0;
+  margin-left: 202%;
+  width: 60%;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 30px rgba(0, 60, 150, 0.15);
+  height: 670px;
+}
+
+.box {
+  position: absolute;
+  top: 198px;
+  left: calc(50% - 767px);
+  width: 1534px;
+  height: 770px;
+  font-size: var(--font-size-smi);
+}
+.vector-icon1, .vector-icon2, .vector-icon3 {
+  position: absolute;
+  width: calc(100% - 193px);
+  top: 17px;
+  right: 0;
+  left: 93px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 5px;
+}
+.full-deck-parent   {
+  position: absolute;
+  top: 60px;
+  left: 556px;
+  width: 187px;
+  height: 240px;
+  font-size: 8px;
+  color: var(--color-white);
+
+}
+.flashcard-settings-child {
+  position: absolute;
+  top: 0;
+  left:-150%;
+  border-radius: 0 var(--br-xl) 0 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  width: 252px;
+  height: 188px;
+}
+
+.box-item {
+  position: absolute;
+  top: 223px;
+  margin-left:-250%;
+  border-radius: 0 0 var(--br-xl) 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  width: 252px;
+  height: 547px;
+}
+
+.videos, .study-plans, .my-books{
+  position: relative;
+  margin-left:556px;
+  font-size: 8px;
+  top:260px;
+}
+.study-plans{
+  position: absolute;
+  margin-top:32px;
+}
+
+
+.video-playlist-1-icon {
+  /* position: absolute;
+  top: 7px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden; */
+}
+
+.study11-1-icon {
+  /* top: 5px;
+  left: 0;
+  width: 24px;
+  height: 24px; */
+}
+
+.books-1-icon {
+  /* top: 7px;
+  left: 0;
+  width: 21px;
+  height: 21px;
+} */
+
+}
+
+
+.video-playlist-1-icon, 
+.study11-1-icon,
+.books-1-icon  {
+  height:15px;
+  width:15px;
+  position: relative;
+  top:0px;
+  left:-5px;
+}
+.flashcard-settings-child {
+  position: absolute;
+  top: 0;
+  left: -222%;
+  border-bottom-right-radius: 15px;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  width: 252px;
+  height: 672px;
+}
+
+
+.flashcards {
+  position: absolute;
+  top: -18px;
+  left: 565px;
+  font-size:12px;
+  line-height: 35px;
+  font-weight: 500;
+  display: inline-block;
+  width: 133px;
+}
+.flashcards-1-icon {
+  top: -5px;
+
+  left: 545px;
+  width: 13px;
+  height: 13px;
+}
+
+.group-item {
+  top: 52px;
+  left: 556px;
+  width:61%;
+  background-color: var(--color-white);
+  height: 28px;
+}
+
+.box-item {
+  position: absolute;
+  top: 0px;
+  left: 682px;
+  border-radius: 0 0 var(--br-xl) 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  width: 152px;
+  height: 547px;
+}
+
+.flashcard-settings-button-child {
+  position: absolute;
+  top: -252px;
+  left: 528px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-tomato-100);
+  width: 126px;
+  padding-right:5px;
+  height: 27px;
+}
+.flashcard-settings1 {
+  position: absolute;
+  top: -262px;
+  left: 528px;
+  width: 196px;
+  font-size:10px;
+  line-height: 35px;
+  font-weight: 500;
+  overflow: hidden;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 25px;
+  left: 879px;
+  width: 36px;
+  height:36px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.group-child2 {
+  top: 0px;
+  left: -2px;
+  border-radius: 50%;
+  border: 10px solid #333;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  mix-blend-mode: soft-light;
+}
+
+.ellipse-div, .group-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 56.14px;
+  height: 56.14px;
+}
+.div2 {
+  position: absolute;
+  top:25px;
+  left:20px;
+  font-size:12px;
+  line-height: 105%;
+  font-weight: 500;
+}
+
+.vector-icon5 {
+  position: absolute;
+  height: 1.55%;
+  width: 0.78%;
+  top: -62px;
+
+  left: 655.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lorem-ipsum-dolor-sit-amet-con-parent {
+  position: absolute;
+  top: 237px;
+  left: 298px;
+  width: 223px;
+  height: 154px;
+  text-align: justify;
+display: none;
+  color: var(--color-dimgray);
+}
+
+.full-deck {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+
+.enviromental-issues, .principles {
+  position: relative;
+  top: 21px;
+  left: 0;
+  line-height: 35px;
+}
+
+.enviromental-issues{
+  position: absolute;
+  top:44px;
+}
+.codes-regulation, .materials-technology, .project-practical {
+  position: relative;
+  top: 30px;
+  left: 0;
+  line-height: 35px;
+}
+
+.materials-technology{
+  position: absolute;
+  top:85px;
+}
+
+
+.project-practical {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  line-height: 35px;
+}
+
+.parent {
+  top: 102px;
+  left: 141px;
+  height: 31px;
+}
+
+.to-learn {
+  position: absolute;
+  top: 385px;
+  left: 740px;
+  font-weight: 500;
+  font-size:10px;
+}
+
+.learned{
+  position: relative;
+  margin-top: -315px;
+  left: 890px;
+  font-weight: 500;
+  font-size:10px;
+}
+.add-2-icon {
+  top: 1px;
+  left: 45px;
+  /* width: 24px; */
+  /* height: 24px; */
+}
+.div1 {
+  position: absolute;
+  top: 248px;
+  left: 440px;
+  font-size:10px;
+}
+.answer {
+  position: absolute;
+  top: 2px;
+  left: 24px;
+  font-size:10px;
+  font-weight: 500;
+}
+.answer-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-tomato-100);
+  width: 85px;
+  height: 18px;
+}
+.answer, .answer-button-child{
+  position: absolute;
+  margin-top:-345px;
+  margin-left:125px;
+}
+.lorem-ipsum-dolor-sit-amet-con-container {
+  position: absolute;
+  top: 517px;
+  left:748px;
+  width: 223px;
+  height: 104px;
+  font-size:10px;
+display: none;
+
+  color: var(--color-dimgray);
+}
+
+.edit-1-icon {
+  top: 2px;
+  left: 66px;
+  
+}
+ .video-playlist-2-icon {
+  position: absolute;
+  top: 0;
+  left: 90px;
+ 
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-sit-amet-con-group {
+  position: absolute;
+  top: 417px;
+  left:748px;
+  width: 223px;
+  height: 104px;
+  font-size:10px;
+ 
+
+  color: var(--color-dimgray);
+}
+
+
+.lorem-ipsum-dolor-sit-amet-con-group  p{
+  font-size:10px;
+}
+
+.flashcard-settings-child {
+  position: absolute;
+  top: 0;
+  left: -222%;
+  border-bottom-right-radius: 15px;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  width: 252px;
+  height: 572px;
+}
+.parent {
+  top: 102px;
+  left: -407px;
+  font-size: 10px;
+  height: 31px;
+}
+.group-child {
+  top: 0;
+  margin-left: 202%;
+  width: 60%;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 30px rgba(0, 60, 150, 0.15);
+  height: 572px;
+}
+.box-item {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  border-radius: 0 0 var(--br-xl) 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  width: 252px;
+  height: 547px;
+}
+
+.vector-icon5 {
+  position: absolute;
+
+
+
+ 
+  left: -233.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+#settingsid{
+  position: absolute;
+  left: 577px;
+  top:428px;
+   height:12px;
+
+}
+} 

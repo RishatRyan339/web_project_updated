@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./reading.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+ 
+  </head>
+  <body>
+    <div class="reading-page">
+      <img class="background-icon" alt="" src="./public/background.svg" />
+
+      <div class="player">
+       
+
+        <div class="group-parent">
+          <div class="read-mon-premier-don-du-sang-parent">
+            <div class="read-mon-premier">READ&nbsp;&nbsp;&nbsp;&nbsp;  Mon premier don du sang</div>
+            <img class="vector-icon" alt="" src="./img/read.png" />
+          </div>
+          <div class="text-container">
+            <div class="group-child"></div>
+            <div class="to-do-container">
+              <span >TO DO - <br> </span>
+              <span class="span">252</span>
+            </div>
+            <div class="group-item"></div>
+            <div class="group-inner"></div>
+            <div class="i-know-all">I KNOW ALL</div>
+            <div class="show-all">Show All</div>
+          </div>
+          
+        </div>
+        <div class="music-wrapper">
+          <div class="player1">
+            
+            <div class="music-controls">
+              <div class="repeat"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/>
+        </svg></div>
+              <div class="previous">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36">
+                  <g>
+                    <path class="a" d="M33,.68l-18.51,15a3,3,0,0,0,0,4.74L33,35.32A3,3,0,0,0,38,33V3.05A3,3,0,0,0,33,.68Z"/>
+                    <rect class="a" width="10" height="36" rx="3" ry="3"/>
+                  </g>
+                </svg>
+              </div>
+              <div class="play">
+                <svg class="play-btn" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"/>
+                </svg>
+                <svg class="pause-btn hide" height="20px" version="1.1" viewBox="0 0 20 20" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#000000" id="Icons-AV" transform="translate(-42.000000, -85.000000)"><g id="pause-circle-outline" transform="translate(42.000000, 85.000000)"><path d="M7,14 L9,14 L9,6 L7,6 L7,14 L7,14 Z M10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 C20,4.5 15.5,0 10,0 L10,0 Z M10,18 C5.6,18 2,14.4 2,10 C2,5.6 5.6,2 10,2 C14.4,2 18,5.6 18,10 C18,14.4 14.4,18 10,18 L10,18 Z M11,14 L13,14 L13,6 L11,6 L11,14 L11,14 Z" id="Shape"/></g></g></g></svg>
+              </div>
+              <div class="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36">
+                  <title>17 Next</title>
+                  <g>
+                    <path class="a" d="M5,35.32,23.47,20.37a3,3,0,0,0,0-4.74L5,.68A3,3,0,0,0,0,3.05V33A3,3,0,0,0,5,35.32Z"/>
+                    <rect class="a" x="28" width="10" height="36" rx="3" ry="3"/>
+                  </g>
+                </svg>
+              </div>
+              <div class="favorite">
+                <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="24" width="24" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <g transform="translate(0 -1028.4)">
+          <path d="m7 1031.4c-1.5355 0-3.0784 0.5-4.25 1.7-2.3431 2.4-2.2788 6.1 0 8.5l9.25 9.8 9.25-9.8c2.279-2.4 2.343-6.1 0-8.5-2.343-2.3-6.157-2.3-8.5 0l-0.75 0.8-0.75-0.8c-1.172-1.2-2.7145-1.7-4.25-1.7z" fill="#5C87FE"/>
+         </g>
+        </svg>
+        <br>
+        <div class="volume-container">
+          <input type="range" id="volumeSlider" min="0" max="100" value="50" step="1">
+        </div>
+              </div>
+              <div class="equalizer">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                 <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div> 
+                 <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div> <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div><div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+           
+            
+         
+          </div>
+        </div>
+        
+        <audio id="song" src=""></audio>
+        <img class="music-1-icon" alt="" src="./img/music-1.svg" />
+      </div>
+      <div class="text-box">
+          <div class="text-box-child"id="texthide"></div>
+        
+        <div class="text-box-inner">
+          <div class="group-container">
+            <div class="rectangle-group">
+              <!-- <div class="group-child23"></div> -->
+              <div class="rectangle-wrapper">
+                <!-- <div class="group-child24"></div> -->
+              </div>
+            </div>
+            <div class="bonjour-manon-bonjour-container">
+            
+            
+                
+              <div class="iframe-responsive">
+<p class="iframer">
+                On peut dire ça comme ça Qu'est-ce que vous avez fait, alors ?
+             
+                
+                  Alors, j'ai fait mon premier don du sang. Donc c'est à dire que
+                  on va dans une… Un organisme spécialisé vient dans l'IUT, dans
+                  notre université pour… pour prendre notre sang pour les malades
+                  de l'hôpital qui en ont besoin…
+            
+                  Oui, voilà, en cas d'accident par exemple, etc…
+              
+                  En cas d'accident ou en cas d'anémie …
+              
+                  Oui, oui. D'accord. Et alors, donc, c'était la première fois que
+                  vous le faisiez ?
+          
+           
+                  C'est la première fois et ça m'a marquée parce que j'ai…j'ai
+                  très peur des piqures en temps habituel.Ah bon !Voilà.
+           
+                  J'en ai… j'en fais très rarement, le plus rarement possible…Oui
+                  ?
+           
+                  … pour… pour éviter ça au maximum. Et puis…Oui, et là, c'est pas
+                  une petite piqure ! Ça dure un moment, en fait !Ah non, ça dure
+                  quinze – vingt minutes.Ah, d'accord.Ils prennent…
+              
+                  je sais plus combien de litres de sang. Ah, c'est beaucoup.Oui,
+                  oui. D'accord.Ouais, ouais, ouais.Et donc vous avez franchi le
+                  pas.Voilà.Mais pourquoi, alors ?
+             
+                  Parce que je pense que c'est important d'aider les autres,
+                  surtout que j'ai appris que j'ai un sang assez rare.Ah oui ?
+                
+                  C'est vrai ?Ouais.Pourquoi ? C'est quoi ?
+              que j'ai un sang assez rare.Ah oui ? 
+              </div>
+            </p>
+                <iframe src="./draftversion/Scrollbarside/scroll.html" class="iframe" width="1400" height="1800" frameborder="0" allowfullscreen></iframe>
+               
+      
+              </p>
+              <p class="bonjour-manon">Oui.</p>
+              <p class="bonjour-manon">
+                On peut dire ça comme ça. Qu'est-ce que vous avez fait, alors ?
+              </p>
+              <p class="bonjour-manon">
+                Alors, j'ai fait mon premier don du sang. Donc c'est à dire que
+                on va dans une… Un organisme spécialisé vient dans l'IUT, dans
+                notre université pour… pour prendre notre sang pour les malades
+                de l'hôpital qui en ont besoin…
+              </p>
+              <p class="bonjour-manon">
+                Oui, voilà, en cas d'accident par exemple, etc…
+              </p>
+              <p class="bonjour-manon">
+                En cas d'accident ou en cas d'anémie …
+              </p>
+              <p class="bonjour-manon">
+                Oui, oui. D'accord. Et alors, donc, c'était la première fois que
+                vous le faisiez ?
+              </p>
+              <p class="bonjour-manon">
+                C'est la première fois et ça m'a marquée parce que j'ai…j'ai
+                très peur des piqures en temps habituel.Ah bon !Voilà.
+              </p>
+              <p class="bonjour-manon">
+                J'en ai… j'en fais très rarement, le plus rarement possible…Oui
+                ?
+              </p>
+              <p class="bonjour-manon">
+                … pour… pour éviter ça au maximum. Et puis…Oui, et là, c'est pas
+                une petite piqure ! Ça dure un moment, en fait !Ah non, ça dure
+                quinze – vingt minutes.Ah, d'accord.Ils prennent…
+              </p>
+              <p class="bonjour-manon">
+                je sais plus combien de litres de sang. Ah, c'est beaucoup.Oui,
+                oui. D'accord.Ouais, ouais, ouais.Et donc vous avez franchi le
+                pas.Voilà.Mais pourquoi, alors ?
+              </p>
+              <p class="bonjour-manon">
+                Parce que je pense que c'est important d'aider les autres,
+                surtout que j'ai appris que j'ai un sang assez rare.Ah oui ?
+              </p>
+              <p class="bonjour-manon">
+                C'est vrai ?Ouais.Pourquoi ? C'est quoi ?
+              </p>
+              <p class="bonjour-manon">que j'ai un sang assez rare.Ah oui ?</p>
+            </div>
+            
+          </div>
+        </div>
+        <img class="text-box-item" alt="" src="./public/group-1.svg" />
+      </div>
+      <form class="search-box">
+        <div class="search-box-child"></div>
+        <div class="lookup-term-parent">
+          <div class="lookup-term-">Lookup Term -</div>
+          <div class="dict1-gtr">Dict1 GTr</div>
+          <div class="gtr">Gtr</div>
+          <div class="sent-">| Sent -</div>
+        </div>
+       
+
+        <div class="show-sentences">Show Sentences</div>
+        <div class="new-term-parent">
+          <div class="new-term">
+            <div class="new-term1">New Term</div>
+            <div class="vector-parent">
+              
+               
+                <input type="text" class="vector-parent"id="vector-parent" name="fname" placeholder="Pendre"><br>
+
+          
+           
+
+              
+              <img class="group-icon" alt="" src="./img/Group 14.svg" />
+            </div>
+          </div>
+          <div class="translation">
+            <div class="new-term1">Translation</div>
+            <input type="text" id="translation-child" class="translation-child"name="trans" value=""><br>
+          
+          </div>
+          <div class="tags">
+            <div class="new-term1">Tags</div>
+           
+            <input type="text" id="translation-child" class="tags-child"name="trans" value=""><br>
+            
+          </div>
+          <div class="romaniz">
+            <div class="vector-group">
+            
+              <input type="text" id="translation-child" class="group-child25"name="trans" value=""><br>
+             
+
+              <div class="new-term1">Romaniz</div>
+            </div>
+          </div>
+          <div class="sentence-term">
+            <div class="sentence-term-in-wrapper">
+              <div class="sentence-term-in-container">
+                <p class="bonjour-manon">Sentence Term</p>
+                <p class="bonjour-manon">in {....}</p>
+              </div>
+            </div>
+            <div class="group-div">
+               <input type="text" id="translation-child" class="group-child26"name="trans" value=""><br>
+              
+
+              <div class="bonjour-manonbonjouralors-j">
+                Bonjour Manon.Bonjour.Alors, je crois qu'il y a pas longtemps,
+                là, vous avez fait une bonne action ?Oui.On peut dire ça comme
+                ça. Qu'est-ce que vous avez fait..
+              </div>
+            </div>
+          </div>
+          <div class="status">
+            <div class="status-wrapper">
+              <div class="new-term1">Status</div>
+            </div>
+            <div class="status-inner">
+              <div class="group-wrapper">
+                <div class="group-wrapper">
+                  <div class="group-frame">
+                    <div class="rectangle-container">
+                      <div class="group-child28"></div>
+                      <div class="parent">
+                        <input type="radio" class="radiobut" id="radio2" name="fav_language" value="1">
+                        <div class="div">1</div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-wrapper1">
+                    <div class="rectangle-container">
+                      <div class="group-child30"></div>
+                      <div class="group">
+                        <input type="radio"class="radiobut" id="2" name="fav_language" value="2">
+                        <div class="div1">2</div>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-wrapper2">
+                    <div class="rectangle-container">
+                      <div class="group-child32"></div>
+                      <div class="group">
+                        <input type="radio" class="radiobut"id="2" name="fav_language" value="3">
+                        <div class="div1">3</div>
+                     
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-wrapper3">
+                    <div class="rectangle-container">
+                      <div class="group-child34"></div>
+                      <div class="parent1">
+                        <input type="radio" class="radiobut"id="2" name="fav_language" value="4">
+                        <div class="div3">4</div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-wrapper4">
+                    <div class="rectangle-container">
+                      <div class="group-child36"></div>
+                      <div class="parent1">
+                        <input type="radio"class="radiobut" id="2" name="fav_language" value="5">
+                        <div class="div3">5</div>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wkn-parent">
+                    <input type="radio" class="radiobut"id="2" name="fav_language" value="6">
+                    <div class="wkn">WKn</div>
+                    <img
+                      class="group-child38"
+                      alt=""
+                      src="./public/group-32.svg"
+                    />
+                  </div>
+                  <div class="group-wrapper5">
+                    <div class="lgn-parent">
+                      <input type="radio" class="radiobut"id="2" name="fav_language" value="7">
+                      <div class="wkn">lgn</div>
+                      <img
+                        class="group-child39"
+                        alt=""
+                        src="./public/group-32.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="save-button">
+          <div class="save-button-child"></div>
+          <div class="save">SAVE</div>
+        </div>
+        <img
+          class="show-property-1-icon"
+          alt=""
+          src="./img/show_property 1.png"
+        />
+      </form>
+      <div class="dictionary-box">
+       
+
+        <div class="dictionary-box-inner">
+          <div class="prendre-parent">
+            <div class="prendre1">prendre</div>
+            <div class="language-box">
+              <div class="language-box-child"></div>
+              <div class="speaker-1-parent">
+                 <img
+                  class="speaker-1-icon"
+                  alt=""
+                  src="./img/speaker 1.png"
+                /> 
+
+                <div class="ecouter">ECOUTER</div>
+                <img
+                class="line"
+                alt=""
+                src="./img/Line 1.png"
+              /> 
+
+                <div class="france">FRANCE</div>
+                <img
+                  class="sort-down-1-icon"
+                  alt=""
+                  src="./img/sort_down 1.png"
+                />
+
+                <!-- <img class="line-icon" alt="" src="./public/line-4.svg" /> -->
+              </div>
+            </div>
+            <div class="en-espagnol-container">
+              <p class="para">
+                en espagnol | conjugaison [FR] | conjugator [EN] | en contexte |
+                images
+              </p>
+              <p class="para">
+                en espagnol | conjugaison [FR] | conjugator [EN] | en contexte |
+                images
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-child"></div>
+        <div class="lwt">LWT</div>
+        <div class="copyright-2023">
+          Copyright © 2023 NAME All rights reserved
+        </div>
+        <div class="social-links">
+          <img
+          class="social-icons-white-instagr"
+          alt=""
+          src="./img/ebook/1socialInstagram.svg"
+        />
+
+        <img
+          class="social-icons-white-instagr"
+          alt=""
+          src="./img/ebook/2social_Dribbble.svg"
+        />
+
+        <img
+          class="social-icons-white-instagr"
+          alt=""
+          src="
+          ./img/ebook/3social_Twitter.svg"
+        />
+
+        <img
+          class="social-icons-white-instagr"
+          alt=""
+          src="./img/ebook/4socialYoutube.svg"
+        />
+        </div>
+      </div>
+      <img class="back-button-icon"id="but" alt="" src="./img/Back.svg" />
+      <img class="back-button-icon" alt="" src="./img/Ellipse 69.svg" />
+      <img
+        class="forward-button-icon"
+        alt="" id="but"
+        src="./img/Front.svg"
+      />
+
+      <img
+      class="forward-button-icon"
+      alt="" 
+      src="./img/Ellipse 69.svg"
+    />
+
+      <div class="icons">
+        <div class="menu">
+          <div class="menu-inner">
+            <div class="menu-inner">
+              <img class="print-1-icon" alt="" src="./img/print-1.svg" />
+
+              <img class="create-1-icon" alt="" src="./img/create-1.svg" />
+
+              <img class="folder-1-icon" alt="" src="./img/folder-1.svg" />
+            </div>
+          </div>
+        </div>
+        <img
+          class="ask-question-1-icon"
+          alt=""
+          src="./img/question-1.svg"
+        />
+      </div>
+    
+      <div class="nav-bar">
+        <div class="menu">
+          <b class="choose">LOGO</b></div>
+        <div class="nav-bar-wrapper">
+          <div class="nav-bar-2">
+            <div class="group-51">
+                  
+              <div class="text-wrapper-55"><a href="reading.html"id="active">Reading</a></div>
+              <div class="text-wrapper-56"><a href="flashcard.html">Flashcard</a></div>
+              <div class="text-wrapper-57"><a href="vocabulary.html">Vocabulary Vault</a></div>
+              <div class="text-wrapper-58"><a href="stats.html">Statistics</a></div>
+              <div class="text-wrapper-59"><a href="ebook.html">Add articles/Ebook</a></div>
+              <div class="text-wrapper-60"><a href="upgrade.html">Upgrade</a></div>
+              <div class="text-wrapper-61"><a href="home.html" >Home</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="group-52">
+          <div class="log-in-button">
+              <a href="login.html"> <button class="overlap-group-15"><div class="text-wrapper-62">Log In</div></button></a> 
+              
+          </div>
+          <div class="settings"><img class="settings-2" src="img/settings.png" /></div>
+          <div class="chat"><img class="component" src="./img/Component 7.png" /></div>
+        </div>
+      </div>
+    </div>
+    <script src="reading.js"></script>
+    <script>
+
+const prev = document.querySelector('.previous');
+const next = document.querySelector('.next');
+const fav = document.querySelector('.favorite');
+const audio = document.querySelector('#song');
+const play = document.querySelector('.play');
+const progressBar = document.querySelector('.audio-progress');
+const start = document.querySelector('.start');
+const end = document.querySelector('.end');
+
+const mp3 = "https://www.mboxdrive.com/Ariana%20Grande%20-%20No%20Tears%20Left%20To%20Cry.mp3"
+
+audio.src = mp3;
+
+const audio2 = "https://voca.ro/asosRyFyiRh";
+
+const togglePressed = (e) => {
+  e.srcElement.closest('div').classList.toggle('pressed')
+}
+
+window.addEventListener('click', togglePressed, false);
+window.addEventListener('mousedown', togglePressed, false);
+window.addEventListener('mouseup', togglePressed, false);
+window.addEventListener('touchdown', togglePressed, false);
+window.addEventListener('touchup', togglePressed, false);
+
+play.addEventListener('click', e => {
+  if (audio.paused) {
+    play.querySelector('.pause-btn').classList.toggle('hide')
+    play.querySelector('.play-btn').classList.toggle('hide')
+    audio.play();
+  } else {
+    play.querySelector('.pause-btn').classList.toggle('hide')
+    play.querySelector('.play-btn').classList.toggle('hide')
+    audio.pause();
+  }
+})
+
+audio.addEventListener('timeupdate', e => {
+  const percent = (audio.currentTime / audio.duration) * 100;
+  let s = parseInt(audio.currentTime % 60);
+   let m = parseInt((audio.currentTime / 60) % 60);
+  if (s / 10 < 1) s = '0'+ s;
+  if (m / 10 < 1) m = '0'+ m;
+  let es = parseInt(audio.duration % 60);
+  let em = parseInt((audio.duration / 60) % 60);
+  if (es / 10 < 1) es = '0'+ es;
+  if (em / 10 < 1) em = '0'+ em;
+  progressBar.style.width = `${percent}%`;
+  start.innerHTML = m + ":" + s;
+  if(em) {
+    end.innerHTML = em + ":" + es;
+  } 
+})
+
+    </script>
+  </body>
+</html>

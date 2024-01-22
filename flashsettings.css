@@ -1,0 +1,1450 @@
+a{
+  color:#000;
+  text-decoration: none;
+}
+a#active{
+  color:#FFFFFF;
+}
+.background-icon {
+    position: absolute;
+    top: -48.5px;
+    left: -58px;
+    width: 1921.5px;
+    height: 558.56px;
+    display: none;
+  }
+  .footer-child {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-white);
+    height: 121px;
+  }
+  .lwt {
+    position: absolute;
+    bottom: 81px;
+    left: 835px;
+    font-weight: 600;
+  }
+  .copyright-2023 {
+    position: absolute;
+    bottom: 58px;
+    left: 729px;
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .social-icons-white-instagr {
+    position: relative;
+    width: 32px;
+    height: 31px;
+  }
+  .social-links {
+    position: absolute;
+    width: calc(100% - 1547px);
+    right: 773px;
+    bottom: 14px;
+    left: 774px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 160px 0 0;
+    box-sizing: border-box;
+    gap: 16px;
+  }
+  .footer {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    height: 121px;
+    font-size: var(--font-size-xl);
+    color: var(--color-darkgray);
+  }
+  .box-icon {
+    position: absolute;
+    top: 90px;
+    left: calc(50% - 767.5px);
+    width: 1534px;
+    height: 670px;
+    object-fit: cover;
+    background: url("./img/Flash_Settings/background.png");
+  }
+  #backicon{
+    width: 8.892px;
+height: 15px;
+flex-shrink: 0;
+position: absolute;
+top:12px;
+left:14px;
+z-index:1000;
+
+  }
+  .flashcard-settings-child {
+    border-radius: 0 var(--br-xl) var(--br-xl) 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 30px rgba(0, 60, 150, 0.15);
+  }
+  .flashcard-settings,
+  .flashcard-settings-child {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 187.5px);
+    width: 375px;
+    height: 670px;
+  }
+  .cards-learned,
+  .div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 105%;
+    font-weight: 600;
+  }
+  .cards-learned {
+    top: 29px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .parent {
+    position: absolute;
+    top: 0;
+    left: 186px;
+    width: 118px;
+    height: 46px;
+  }
+  .div1,
+  .reviews-per-day {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 105%;
+    font-weight: 500;
+  }
+  .div1 {
+    left: 301px;
+    font-weight: 600;
+    text-align: right;
+  }
+  .reviews-per-day-average-parent {
+    position: absolute;
+    top: 42px;
+    left: 3px;
+    width: 321px;
+    height: 17px;
+    text-align: left;
+  }
+  .div2,
+  .reviews-today {
+    position: absolute;
+    top: 0;
+    left: 305px;
+    line-height: 105%;
+    font-weight: 600;
+  }
+  .reviews-today {
+    left: 0;
+    font-weight: 500;
+    text-align: left;
+  }
+  .group {
+    position: absolute;
+    top: 72px;
+    left: 3px;
+    width: 321px;
+    height: 17px;
+  }
+  .div3,
+  .grade-change-today {
+    position: absolute;
+    top: 0;
+    left: 286px;
+    line-height: 105%;
+    font-weight: 600;
+  }
+  .grade-change-today {
+    left: 0;
+    font-weight: 500;
+    color: var(--color-white);
+    text-align: left;
+  }
+  .container {
+    position: absolute;
+    top: 102px;
+    left: 4px;
+    width: 320px;
+    height: 17px;
+    color: #ffc300;
+  }
+  .information-child {
+    top: 27.5px;
+    left: 0;
+    width: 327px;
+    height: 1.07px;
+  }
+  .information-child,
+  .information-item,
+  .vector-icon {
+    position: absolute;
+    object-fit: contain;
+  }
+  .information-item {
+    top: 132px;
+    left: 0;
+    width: 327px;
+    height: 1.07px;
+  }
+  .vector-icon {
+    width: calc(100% - 317px);
+    top: 107px;
+    right: 42px;
+    left: 275px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 6px;
+  }
+  .information1 {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    line-height: 105%;
+    font-weight: 600;
+  }
+  .information {
+    position: absolute;
+    top: 126px;
+    left: 0;
+    width: 327px;
+    height: 133.07px;
+    text-align: right;
+  }
+  .easy,
+  .fail,
+  .good,
+  .hard {
+    position: absolute;
+    top: 131px;
+    left: 16px;
+    line-height: 105%;
+  }
+  .easy,
+  .good,
+  .hard {
+    left: 86px;
+  }
+  .easy,
+  .good {
+    left: 160px;
+  }
+  .easy {
+    left: 239px;
+  }
+  .group-child {
+    top: 120px;
+    left: 0;
+    max-height: 100%;
+    width: 285px;
+  }
+  #progress1{
+    border-radius: 5px 5px 0px 0px;
+background: #F00;
+  }
+  #progress2{
+    background-color: #ff8a00;
+    width:1px;
+    border-radius: 5px 5px 0px 0px;
+    background: #FF8A00;
+  }
+  #progress3{
+    border-radius: 5px 5px 0px 0px;
+    background: #00C2FF;
+  }
+  .b,
+  .group-child,
+  .group-item {
+    position: absolute;
+  }
+  .group-item {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+ 
+    width: 57px;
+    transition: width 1s ease-in-out;
+    height: 40px;
+  }
+  .b {
+    top: 12px;
+    left: 26px;
+    line-height: 105%;
+  }
+  .group-inner,
+  .rectangle-parent {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 57px;
+    height: 40px;
+  }
+  .group-inner {
+    top: 0;
+    border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+    background-color: #ff8a00;
+  }
+  .rectangle-div,
+  .rectangle-group {
+    position: absolute;
+    top: 80px;
+    left: 86px;
+ 
+    height: 40px;
+  }
+
+  .rectangle-group {
+    position: relative;
+    top: 80px;
+    left: 76px;
+    width:0px;
+    height: 40px;
+  }
+  .rectangle-div {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+    background-color: #00c2ff;
+    height: 80px;
+  }
+  .b2 {
+    position: absolute;
+    top: 52px;
+    left: 26px;
+    line-height: 105%;
+  }
+  .group-child1,
+  .rectangle-container {
+    position: absolute;
+    top: 40px;
+    left: 152px;
+    width: 57px;
+    height: 80px;
+  }
+  .group-child1 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+    background-color: #2ace00;
+    height: 120px;
+  }
+  .b3 {
+    position: absolute;
+    top: 92px;
+    left: 26px;
+    line-height: 105%;
+  }
+  .chart,
+  .group-div,
+  .vector-parent {
+    position: absolute;
+    top: 0;
+    left: 228px;
+    width: 57px;
+    height: 120px;
+  }
+  .bar-chart,
+.group1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.chart,
+.group-div,
+.vector-parent {
+  position: absolute;
+  top: 0;
+  left: 228px;
+  width: 57px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.chart,
+.vector-parent {
+  left: 0;
+  width: 285px;
+}
+
+.chart {
+  top: 321px;
+  left: 21px;
+  height: 147px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+
+.progress-bar {
+  height: 100%;
+
+width:0;
+  background-color: #3498db; 
+  transition: width 1s ease-in-out; 
+}
+
+
+.fail { background-color: #e74c3c; }
+.hard { background-color: #e67e22; }
+.good { background-color: #2ecc71; }
+.easy { background-color: #f39c12; }
+
+  .chart,
+  .vector-parent {
+    left: 0;
+    width: 285px;
+  }
+  .chart {
+    top: 321px;
+    left: 21px;
+ 
+    height: 147px;
+    text-align: left;
+    font-size: var(--font-size-mini);
+  }
+  .group-parent {
+    position: absolute;
+    top: 144px;
+    left: 24px;
+    width: 327px;
+    height: 468px;
+  }
+  .flashcard-settings-parent {
+    position: absolute;
+    top: 90px;
+    left: calc(50% + 392.5px);
+    width: 375px;
+    height: 670px;
+    text-align: center;
+  }
+  .group-icon,
+  .vector-icon1,
+  .vector-icon2,
+  .vector-icon3,
+  .vector-icon4 {
+    position: absolute;
+    height: 9.75%;
+    width: 30.39%;
+    top: 9%;
+    right: 59.37%;
+    bottom: 81.25%;
+    left: 10.24%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .group-icon,
+  .vector-icon2,
+  .vector-icon3,
+  .vector-icon4 {
+    top: 32.12%;
+    bottom: 58.13%;
+  }
+  .group-icon,
+  .vector-icon3,
+  .vector-icon4 {
+    width: 52.75%;
+    top: 54.88%;
+    right: 37%;
+    bottom: 35.37%;
+  }
+  .group-icon,
+  .vector-icon4 {
+    width: 73.75%;
+    top: 77.63%;
+    right: 16.01%;
+    bottom: 12.61%;
+  }
+  .group-icon {
+    height: 100%;
+    width: 89.88%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10.12%;
+  }
+  .easy1,
+  .fail1,
+  .good1,
+  .hard1 {
+    position: absolute;
+    height: 5.42%;
+    width: 4.95%;
+    top: 9.72%;
+    left: 2.9%;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .easy1,
+  .good1,
+  .hard1 {
+    width: 7.68%;
+    top: 33.56%;
+    left: 0.85%;
+  }
+  .easy1,
+  .good1 {
+    width: 8.71%;
+    top: 57.4%;
+    left: 0;
+  }
+  .easy1 {
+    width: 7.51%;
+    top: 81.24%;
+    left: 0.85%;
+  }
+  .bar-chart,
+  .group1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .group1 {
+    height: 97.17%;
+    width: 56.89%;
+    right: 43.11%;
+    bottom: 2.83%;
+  }
+  .vector-icon5,
+  .vector-icon6 {
+    position: absolute;
+    height: 68.94%;
+    width: 52.83%;
+    top: 6.93%;
+    right: 0;
+    bottom: 24.14%;
+    left: 47.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon6 {
+    height: 38.17%;
+    width: 25.33%;
+    top: 3.23%;
+    right: 1.08%;
+    bottom: 58.61%;
+    left: 73.59%;
+  }
+  .div4 {
+    position: absolute;
+    height: 11.83%;
+    width: 29.35%;
+    top: 88.17%;
+    left: 62.26%;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .ellipse-div,
+  .this-month {
+    position: absolute;
+    top: 0;
+    left: 17px;
+  }
+  .ellipse-div {
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-dimgray);
+    width: 8px;
+    height: 8px;
+  }
+  .this-month-container,
+  .this-month-group,
+  .this-month-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103px;
+    height: 24px;
+  }
+  .this-month-container,
+  .this-month-group {
+    top: 28px;
+  }
+  .this-month-container {
+    top: 56px;
+  }
+  .group-container,
+  .this-month-parent1,
+  .vector-group {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 103px;
+    height: 24px;
+  }
+  .group-container,
+  .vector-group {
+    top: 0;
+    height: 108px;
+    font-size: var(--font-size-base);
+  }
+  .vector-group {
+    height: 97.92%;
+    width: 35.41%;
+    top: 2.08%;
+    right: 0;
+    bottom: 0;
+    left: 64.59%;
+    font-size: var(--font-size-xl);
+  }
+  .group-group {
+    position: absolute;
+    height: 37.49%;
+    width: 67.08%;
+    top: 56.19%;
+    right: 29.01%;
+    bottom: 6.32%;
+    left: 3.91%;
+    color: var(--color-dimgray);
+  }
+  .summary {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    line-height: 35px;
+    font-weight: 600;
+    display: inline-block;
+    width: 122px;
+  }
+  .summary-list-1-icon {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 29px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .summary-parent {
+    position: absolute;
+    top: 110px;
+    left: 1266px;
+    width: 162px;
+    height: 35px;
+    font-size: var(--font-size-5xl);
+  }
+  .flashcard-settings1 {
+    position: absolute;
+    top: 2px;
+    left: 63px;
+    line-height: 35px;
+    font-weight: 600;
+    display: inline-block;
+    width: 309px;
+  }
+  .flashcard-settings1:hover{
+cursor: pointer;
+background-color: #cf3e1e;
+  }
+  .flashcard-settings-group,
+  .group-child5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+  }
+  .group-child5 {
+    width: 40px;
+    object-fit: cover;
+  }
+  .flashcard-settings-group {
+    width: 372px;
+    font-size: 32px;
+  }
+  .group-child6 {
+    position: absolute;
+    top: 34.77px;
+    left: 28.98px;
+    border-radius: 50%;
+    background-color: var(--color-orangered);
+    filter: blur(50px);
+    width: 91.26px;
+    height: 91.26px;
+  }
+  .group-child7,
+  .group-child8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 123.14px;
+    height: 123.14px;
+  }
+  .group-child7 {
+    background-color: var(--color-darksalmon);
+  }
+  .group-child8 {
+    background: linear-gradient(137.91deg, #ff9263 12.41%, #fb5532);
+  }
+  .div5 {
+    position: absolute;
+    top: 48.15px;
+    left: 40.5px;
+    line-height: 105%;
+    font-weight: 500;
+    display: inline-block;
+    width: 52.51px;
+    height: 26.9px;
+  }
+  .ellipse-group,
+  .group-child9 {
+    position: absolute;
+    top: 0.49px;
+    left: 0.5px;
+    width: 123.14px;
+    height: 123.14px;
+  }
+  .group-child9 {
+    top: 5.29px;
+    left: 5.31px;
+    border-radius: 50%;
+    border: 10px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    width: 112.56px;
+    height: 112.56px;
+    mix-blend-mode: soft-light;
+  }
+  .ellipse-icon,
+  .group-child10 {
+    position: absolute;
+    top: 10.29px;
+    left: 61.59px;
+    width: 51.28px;
+    height: 51.28px;
+  }
+  .group-child10 {
+    top: 58.38px;
+    left: 109.68px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 6.37px;
+    height: 6.37px;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 188px;
+    left: 1224px;
+    width: 123.14px;
+    height: 126.03px;
+    font-size: var(--font-size-5xl);
+  }
+  .box-parent {
+    position: absolute;
+    top: 198px;
+    left: calc(50% - 768px);
+    width: 1535px;
+    height: 760px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .group-child11,
+  .parent1 {
+    position: absolute;
+    top: -40px;
+    left: 32px;
+    width: 1198px;
+    height: 407px;
+  }
+  .parent1 {
+    top: 102px;
+    left: 141px;
+    width: 118px;
+    height: 46px;
+  }
+  .reviews-per-day1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-xl);
+    line-height: 105%;
+    font-weight: 500;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .group-parent4 {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 273px;
+    height: 148px;
+  }
+  .ellipse-container {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 123.14px;
+    height: 126.03px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+  }
+  .group-parent3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 276px;
+    height: 186.03px;
+  }
+
+  .group-parent3, .group-parent-5{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 276px;
+    height: 186.03px;
+  }
+
+  .group-parent-7 {
+    position: absolute;
+    top: 0;
+   left: 500px;
+    width: 276px;
+    height: 186.03px;
+  }
+  .group-parent5,
+  .group-parent6 {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 259px;
+    height: 148px;
+  }
+  .group-parent5 {
+    left: 425px;
+    width: 261px;
+    height: 186.03px;
+  }
+  .group-parent8,
+  .group-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 259px;
+    height: 148px;
+  }
+  .group-wrapper {
+    left: 4px;
+  }
+  .group-parent1,
+
+  .group-parent7 {
+    position: absolute;
+    top: 0;
+    left: 707px;
+    width: 263px;
+    height: 186.03px;
+  }
+.group-parent2{
+  position: absolute;
+  top: 0;
+  left: 907px;
+  width: 263px;
+  height: 186.03px;
+}
+
+  .group-parent1,
+  .group-parent2 {
+    top: 40px;
+    left: 73px;
+
+    width: 1078px;
+height: 267px;
+flex-shrink: 0;
+  }
+  .group-parent1 {
+    top: 316px;
+    left: 137px;
+    width: 1078px;
+    height: 267px;
+    text-align: center;
+    color: var(--color-gray-100);
+    
+ 
+  }
+  .logo {
+    top: 0;
+    line-height: 35px;
+  }
+  .group-child30,
+  .logo,
+  .menu {
+    position: absolute;
+    left: 0;
+  }
+  .menu {
+    top: 10px;
+    width: 102px;
+    height: 35px;
+    font-size: 36px;
+  }
+  .group-child30 {
+    top: 0;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    width: 1141px;
+    height: 56px;
+  }
+  .flashcard,
+  .reading {
+    position: absolute;
+    top: 0;
+    left: 127px;
+    line-height: 35px;
+  }
+  .flashcard {
+    left: 239px;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+    color: var(--color-white);
+  }
+  .statistics,
+  .vocabulary-vault {
+    position: absolute;
+    top: 7px;
+    left: 399px;
+    line-height: 21px;
+  }
+  .statistics {
+    top: 0;
+    left: 609px;
+    line-height: 35px;
+  }
+  .add-articlesebook,
+  .home,
+  .upgrade {
+    position: absolute;
+    top: 7px;
+    left: 744px;
+    line-height: 21px;
+  }
+  .home,
+  .upgrade {
+    top: 0;
+    left: 970px;
+    line-height: 35px;
+    text-align: right;
+  }
+  .home {
+    left: 0;
+    text-align: left;
+  }
+  .navbar1,
+  .reading-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1049px;
+    height: 35px;
+  }
+  .navbar1 {
+    top: 10px;
+    left: 47px;
+  }
+  .rectangle-parent1 {
+    position: absolute;
+    top: 0;
+    left: 127px;
+    width: 1141px;
+    height: 56px;
+    text-align: center;
+    color: var(--color-black);
+  }
+  .log-in-button-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(60px);
+    width: 123px;
+    height: 56px;
+  }
+  .log-in {
+    position: absolute;
+    top: 10px;
+    left: 34px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+  .log-in-button {
+    position: absolute;
+    top: 0;
+    left: 114px;
+    width: 123px;
+    height: 56px;
+  }
+  
+ .settings {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 4px;
+  left: 57px;
+  background-color: #0000001a;
+  border-radius: 23.5px;
+}
+
+ .settings-2 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 16px;
+  left: 16px;
+}
+
+.chat {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 4px;
+  left: 0;
+  background-color: #0000001a;
+  border-radius: 23.5px;
+}
+
+ .component {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 16px;
+  left: 14px;
+}
+
+
+  .log-in-button-parent {
+    position: absolute;
+    top: 0;
+    left: 1293px;
+    width: 237px;
+    height: 56px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar {
+    position: absolute;
+    top: 76px;
+    left: 99px;
+    width: 1530px;
+    height: 56px;
+    font-size: var(--font-size-lg);
+  }
+  .flashcard-settings-page {
+    position: relative;
+    background: linear-gradient(107.95deg, #ff5733, #f33);
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+
+ 
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-mini: 15px;
+  
+    /* Colors */
+    --color-gray-100: rgba(0, 0, 0, 0.4);
+    --color-black: #000;
+    --color-white: #fff;
+    --color-darkslategray: #333;
+    --color-darksalmon: #ffbb9f;
+    --color-orangered: #fa3d15;
+    --color-dimgray: #5b5b5b;
+    --color-darkgray: #a9a9a9;
+  
+    /* Border radiuses */
+    --br-8xs: 5px;
+    --br-xl: 20px;
+  }
+  
+  @media (max-width:991px){
+
+    html{
+       font-size: 55%;
+    }
+ 
+ }
+
+ @media (max-width:768px){
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:1150px){
+
+
+  .box-icon {
+    position: absolute;
+    top: 90px;
+    left: calc(50% - 767.5px);
+    width: 734px;
+    height: 670px;
+    object-fit: cover;
+    background: url(./img/Flash_Settings/background.png);
+}
+
+ .vector-icon1{
+  position: absolute;
+  height: 9.75%;
+  width: 10.39%;
+  top: 9%;
+  margin-top: 5%;
+  right: 59.37%;
+  bottom: 81.25%;
+  left: 10.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon2{
+  position: absolute;
+  height: 9.75%;
+  width: 10.39%;
+  
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon3{
+  position: absolute;
+  height: 9.75%;
+  width: 14.39%;
+  margin-top: -5%;
+ 
+  overflow: hidden;
+  max-height: 100%;
+}
+.information {
+  position: absolute;
+  top: 126px;
+  left: 0;
+  width: 327px;
+  height: 133.07px;
+  font-size: 10px;
+  text-align: right;
+}
+
+.flashcard-settings-parent {
+  position: absolute;
+  top: 90px;
+  left: 868px;
+  z-index: 1;
+  width: 375px;
+  height: 670px;
+  text-align: center;
+}
+.group-parent2 {
+  top: 40px;
+  left: -132px;
+  width: 1078px;
+  height: 267px;
+  flex-shrink: 0;
+}
+.cards-learned {
+  position: absolute;
+  top: 30px;
+  margin-top:20px;
+  font-size:12px;
+}
+.div {
+  position: absolute;
+  margin-top: 20px;
+  left: 0;
+  line-height: 105%;
+  font-weight: 600;
+  font-size: 10px;
+}
+.summary-list-1-icon {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 29px;
+  height: 14px;
+  overflow: hidden;
+}
+.summary-parent {
+  position: absolute;
+  top: 110px;
+  left: 1006px;
+  z-index: 1000;
+  font-size: 12px;
+  width: 162px;
+  height: 35px;
+ 
+}
+.bar-chart, .group1 {
+  position: absolute;
+ 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100px;
+}
+.vector-icon4{
+  position: absolute;
+  height: 9.75%;
+  width: 20.39%;
+  margin-top: -10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fail1, .hard1, .good1, .easy1{
+position: absolute;
+margin-top: 5px;
+margin-left: 20px;
+font-size: 12px;
+
+}  
+.fail1{
+  margin-top: 30px;
+}
+.hard1{
+  margin-top: 1px;
+} 
+.good1{
+  margin-top: -30px;
+}
+.easy1{
+  margin-top: -65px;
+}
+.vector-group {
+  height: 77.92%;
+  width: 15.41%;
+  top: 30.08%;
+  right: 0;
+  bottom: 0;
+  left: 54.59%;
+  font-size: var(--font-size-xl);
+}
+.cards-learned, .div {
+  position: absolute;
+ margin-top:-10px;
+  left: 0;
+  line-height: 105%;
+  font-weight: 600;
+}
+
+.cards-learned {
+  position: absolute;
+top:-10px;
+
+}
+
+.this-month {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  font-size: 12px;
+}
+.reviews-per-day1 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 105%;
+  font-weight: 499;
+  color: var(--color-black);
+  text-align: left;
+  font-size: 11px;
+}
+
+.parent1 {
+  top: 142px;
+  left: 6px;
+  width: 118px;
+  height: 46px;
+  font-size: 11px;
+}
+.div5 {
+  position: absolute;
+  top: 28.15px;
+  left: 20.5px;
+  line-height: 105%;
+  font-weight: 500;
+  display: inline-block;
+  width: 52.51px;
+  height: 26.9px;
+  font-size: 13px;
+}
+.flashcard-settings, .flashcard-settings-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 187.5px);
+  width: 375px;
+  height: 572px;
+}
+.group-child9 {
+  top: 5.29px;
+  left: 5.31px;
+  border-radius: 50%;
+  border: 10px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  mix-blend-mode: soft-light;
+}
+.group-child8 {
+  background: linear-gradient(137.91deg, #ff9263 12.41%, #fb5532);
+ 
+}
+.group-child11, .parent1 {
+ display: none;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 158px;
+  left: 985px;
+  z-index: 1000;
+  width: 123.14px;
+  height: 126.03px;
+  font-size: var(--font-size-5xl);
+}
+.group-container {
+  position: absolute;
+  top: 284px;
+  left: 0;
+  width: 103px;
+  height: 24px;
+}
+
+.group-parent7 {
+  position: absolute;
+  top: 0px;
+  left: 280px;
+  width: 263px;
+  height: 186.03px;
+}
+.group-parent5 {
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  width: 259px;
+  height: 148px;
+}
+
+.group-icon {
+  height: 70%;
+  width: 89.88%;
+  top: 52px;
+  right: 0;
+  bottom: 0;
+  left: -10%;
+}
+.group-parent3 {
+  position: absolute;
+  top: -100px;
+  left: 280px;
+  width: 276px;
+  height: 186.03px;
+}
+.vector-group {
+  height: 77.92%;
+  width: 15.41%;
+  top: -100.08%;
+  right: 0;
+  bottom: 0;
+  left: 60.59%;
+  font-size: var(--font-size-xl);
+}
+
+.box-icon {
+  position: absolute;
+  top: 90px;
+  left:500px;
+  width: 365.6px;
+  height: 572px;
+  object-fit: cover;
+  background: url(./img/Flash_Settings/background.png);
+}
+.group-child7, .group-child8 {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  border-radius: 50%;
+  width: 56.14px;
+  height: 56.14px;
+}
+.box-parent {
+  position: absolute;
+  top: 198px;
+  left: -260px; 
+  width: 1535px;
+  height: 760px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chart {
+  top: 271px;
+  left: 21px;
+  height: 147px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+.div4 {
+  position: absolute;
+  height: 11.83%;
+  width:100.35%;
+  font-size: 10px;
+  top: 140px;
+
+}
+.bar-chart, .group1 {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  bottom: 0;
+  left: 120px;
+}
+.flashcard-settings-group {
+  width: 372px;
+  left: 700px;
+  font-size: 12px;
+}
+  html{
+     font-size: 50%;
+    
+  }
+  body{
+    overflow-x: auto;
+  }
+}

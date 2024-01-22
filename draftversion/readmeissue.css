@@ -1,0 +1,50 @@
+.text-box-inner,
+  .text-box-item {
+    position: absolute;
+    width: calc(100% - 55px);
+    top: 38px;
+    right: 19px;
+    left: 36px;
+    height: 833px;
+  }
+  .text-box-item {
+    width: calc(100% - 735.95px);
+    top: 153.46px;
+    right: 21.2px;
+    left: 714.75px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 11.9px;
+  }
+  .text-box {
+    position: absolute;
+    width: calc(100% - 986px);
+    top: 274px;
+    right: 889px;
+    left: 97px;
+    height: 901px;
+  }
+
+  .text-box-child {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    backdrop-filter: blur(60px);
+    height: 901px;
+  }
+
+  .reading-page {
+    position: relative;
+    background: linear-gradient(118.89deg, #ff5733, #f33);
+    width: 100%;
+    height: 1350px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-poppins);
+  }

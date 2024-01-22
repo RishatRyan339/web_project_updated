@@ -1,0 +1,82 @@
+https://www.figma.com/file/XIWff0UgirfVNo77FoaOpW/LWT-Re-Design?node-id=0%3A42&mode=dev
+
+color for button hover
+ background-color: #cf3e1e;
+#
+text-wrapper 54,55,56,57,58,59,60,61
+overlap-group-15
+.group-52 
+
+image-frame-rectangle-parent
+zoomed-image-group-child3
+button  id="expandButton" class="expandable-button"
+later - id= studyplans    class="studyplans"
+
+custom-checkbox1 = othercheckbox
+markAll=id
+markNone=id
+
+./img/ebook/3social_Twitter.svg
+
+
+ <div class="chart">
+              <div class="fail">Fail</div>
+              <div class="hard">Hard</div>
+              <div class="good">Good</div>
+              <div class="easy">Easy</div>
+              <div class="vector-parent">
+                <img class="group-child" alt="" src="./public/line-55.svg" />
+
+                <div class="rectangle-parent">
+                  <div class="group-item"></div>
+                  <b class="b">1</b>
+                </div>
+                <div class="rectangle-group">
+                  <div class="group-inner"></div>
+                  <b class="b">1</b>
+                </div>
+                <div class="rectangle-container">
+                  <div class="rectangle-div"></div>
+                  <b class="b2">3</b>
+                </div>
+                <div class="group-div">
+                  <div class="group-child1"></div>
+                  <b class="b3">4</b>
+                </div>
+              </div>
+            </div>
+
+  .bar-chart,
+  .group1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  .chart,
+  .group-div,
+  .vector-parent {
+    position: absolute;
+    top: 0;
+    left: 228px;
+    width: 57px;
+    height: 120px;
+  }
+  .chart,
+  .vector-parent {
+    left: 0;
+    width: 285px;
+  }
+  .chart {
+    top: 321px;
+    left: 21px;
+    height: 147px;
+    text-align: left;
+    font-size: var(--font-size-mini);
+  }
+

@@ -1,0 +1,28 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="29" height="29" fill="#F5F5F5"/>
+<g id="Add articles/Ebook Page" clip-path="url(#clip0_0_1)">
+<rect width="1728" height="2701" transform="translate(-1553 -779)" fill="url(#paint0_linear_0_1)"/>
+<g id="new books">
+<g id="New Books">
+<g id="new book cards">
+<g id="Group 143">
+<g id="Group 144">
+<g id="next_page 1">
+<path id="Vector" d="M14.4998 2.41675C7.82621 2.41675 2.4165 7.82646 2.4165 14.5001C2.4165 21.1737 7.82621 26.5834 14.4998 26.5834C21.1735 26.5834 26.5832 21.1737 26.5832 14.5001C26.5832 7.82646 21.1735 2.41675 14.4998 2.41675ZM13.2915 20.6275L11.479 18.815L15.794 14.5001L11.479 10.1851L13.2915 8.37262L19.419 14.5001L13.2915 20.6275Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="0" y1="0" x2="1796.29" y2="2523.2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF5733"/>
+<stop offset="1" stop-color="#FF3333"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1728" height="2701" fill="white" transform="translate(-1553 -779)"/>
+</clipPath>
+</defs>
+</svg>
